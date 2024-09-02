@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ra1nz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            html, body {
+                padding: 00;
+                margin: 0;
+                overflow: hidden;
+            }
+            video {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -1;
+                transform: translate(-50%, -50%);
+                object-fit: cover;
+            }
+            .github-button {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                overflow: hidden;
+                border: none;
+                cursor: pointer;
+                background-color: white;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            .github-button img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .img {
+                width: 50%;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+        <body style="background-color:rgb(0, 0, 0);">
+            <video autoplay loop muted playsinline>
+                <source src="https://github.com/ph0neh1/ph0neh1.github.io/raw/main/content/0901.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="https://github.com/ph0neh1" class="github-button" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" oncontextmenu="return false;" ondragstart="return false;">
+            </a>
+        </body>
+    </head>
+</html>
